@@ -1,7 +1,14 @@
 .container {
-  background-image: url(/public/img/hero/glass-effect.png);
-  background-size: 50%;
+  padding: 32px;
+}
 
-  background-repeat: no-repeat;
-  width: 100%;
+.heroTitle {
+  font-weight: 500;
+  font-size: 90px;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  color: #fafafa;
+
+  margin: 0;
 }

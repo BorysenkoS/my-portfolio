@@ -1,3 +1,71 @@
+.background {
+  background-image: url(/public/img/hero/hero-desk-2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+}
+
+.container {
+  padding: 32px;
+}
+
 .myPhoto {
+  display: block;
   border-radius: 10px;
+  margin-right: 8px;
+}
+
+.myPhotoLink:hover {
+  transition: transform 0.5s ease;
+  transform: scale(1.7);
+  margin-right: 20px;
+}
+
+.myName {
+  color: #fafafa;
+  margin: 0;
+}
+
+.designAfterName {
+  font-size: 16px;
+}
+
+.menuButton {
+  /* font-family: 'Inter Tight', sans-serif; */
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #fafafa;
+
+  background: transparent;
+  border: none;
+  width: 67px;
+  height: 39px;
+}
+
+.orderButton {
+  font-family: 'Inter Tight', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  line-height: 19.36px;
+  color: #fafafa;
+
+  text-align: center;
+  background: #ed3b44;
+  border-radius: 60px;
+  padding: 18px 24px;
+  border: none;
+  width: 163px;
+  height: 55px;
 }
