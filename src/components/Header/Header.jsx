@@ -11,7 +11,7 @@ const Header = () => {
             <a className={css.myPhotoLink} href="/">
               <img
                 className={css.myPhoto}
-                src="/public/img/header/my-photo.png"
+                src="/img/header/my-photo.png"
                 alt="my-photo"
                 width={80}
               />
