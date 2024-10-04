@@ -8,11 +8,30 @@ const Hero = () => {
         I&rsquo;m Fullstack developer Serhii Borysenko.
       </h1>
 
-      <ul>
-        <li>in</li>
-        <li>fb</li>
-        <li>git</li>
-        <li>mail</li>
+      <ul className={css.socialList}>
+        <li className={css.socialItem}>
+          <a
+            className={css.socialLink}
+            href="https://www.linkedin.com/in/borysenko-serhii/"
+            target="blank"
+          >
+            IN
+          </a>
+        </li>
+        <li className={css.socialItem}>
+          <a
+            className={css.socialLink}
+            href="https://github.com/BorysenkoS?tab=repositories"
+            target="blank"
+          >
+            GIT
+          </a>
+        </li>
+        <li className={css.socialItem}>
+          <a className={css.socialLink} href="mailto:borisenko37@gmail.com">
+            borisenko37@gmail.com
+          </a>
+        </li>
       </ul>
     </div>
   );
