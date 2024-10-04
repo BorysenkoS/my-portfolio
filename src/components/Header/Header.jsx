@@ -1,5 +1,4 @@
 import css from './Header.module.css';
-import clsx from 'clsx';
 
 import Hero from '../Hero/Hero';
 
@@ -7,7 +6,7 @@ const Header = () => {
   return (
     <div className={css.background}>
       <header className={css.container}>
-        <div className={clsx(css.headerContainer)}>
+        <div className={css.headerContainer}>
           <div className={css.logo}>
             <a className={css.myPhotoLink} href="/">
               <img
