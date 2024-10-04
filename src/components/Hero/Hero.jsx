@@ -7,7 +7,6 @@ const Hero = () => {
         Hello. <br />
         I&rsquo;m Fullstack developer Serhii Borysenko.
       </h1>
-
       <ul className={css.socialList}>
         <li className={css.socialItem}>
           <a

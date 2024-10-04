@@ -1,0 +1,75 @@
+.visuallyHidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.AboutContainer {
+  padding: 96px 32px 82px;
+  max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+  gap: 96px;
+  margin: 0 auto;
+}
+
+.aboutDescribe {
+  border-radius: 24px;
+  padding: 64px;
+  background: #242527;
+}
+
+.aboutTitle {
+  font-weight: 500;
+  font-size: 38px;
+  line-height: 1.05263;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+
+  margin: 0;
+}
+
+.aboutImg {
+  border-radius: 24px;
+  height: 700px;
+  width: 680px;
+}
+
+.miniContainer {
+  display: flex;
+  gap: 16px;
+}
+
+.aboutMiniTitle {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: rgba(250, 250, 250, 0.4);
+}
+
+.aboutText {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.02em;
+
+  padding-left: 696px;
+  padding-right: 68px;
+}
+
+.aboutList {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.02em;
+
+  padding-left: 696px;
+  padding-right: 68px;
+}
