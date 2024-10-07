@@ -15,7 +15,7 @@ const About = () => {
         <div>
           <img
             className={css.aboutImg}
-            src="/public/img/about/5819201832042480121.jpg"
+            src="/img/about/5819201832042480121.jpg"
             alt="my-photo"
           />
         </div>
